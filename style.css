@@ -5,31 +5,21 @@ h1{
 input{
   margin: 30px 50%;
 }
-#red{
-  background-color: red;
+#red, #blue, #green, #yellow {
   display: inline-block;
   height: 150px;
   width: 150px;
   margin: 0 3% 0 7%;
+}
+#red {
+    background-color: red;
 }
 #blue{
   background-color: blue;
-  display: inline-block;
-  height: 150px;
-  width: 150px;
-  margin: 0 3% 0 7%;
 }
 #green{
   background-color: green;
-  display: inline-block;
-  height: 150px;
-  width: 150px;
-  margin: 0 3% 0 7%;
 }
 #yellow{
   background-color: yellow;
-  display: inline-block;
-  height: 150px;
-  width: 150px;
-  margin: 0 3% 0 7%;
 }

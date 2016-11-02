@@ -1,10 +1,10 @@
 $(document).ready(function () {
 
   $('.blockContainer').append(
-        '<div class="boxToClick" id="red"></div>' +
-        '<div class="boxToClick" id="green"></div>' +
-        '<div class="boxToClick" id="yellow"></div>' +
-        '<div class="boxToClick" id="blue"></div>'
+        '<div id="red"></div>' +
+        '<div id="green"></div>' +
+        '<div id="yellow"></div>' +
+        '<div id="blue"></div>'
     );
 
   $("#red").data("boxNumber", 1);
